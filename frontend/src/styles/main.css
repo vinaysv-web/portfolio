@@ -1,0 +1,18 @@
+/* Main CSS file that imports all styles */
+
+/* Global styles */
+@import './globals.css';
+
+/* Component styles */
+@import './Navbar.css';
+@import './Footer.css';
+@import './ThemeToggle.css';
+
+/* Page styles */
+@import './Home.css';
+@import './About.css';
+@import './Projects.css';
+@import './Contact.css';
+
+/* Animation styles */
+@import './Animations.css';
