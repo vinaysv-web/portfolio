@@ -24,16 +24,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set current year in footer
     document.getElementById('current-year').textContent = new Date().getFullYear();
     
-    // Mobile menu toggle
-    const navToggle = document.getElementById('nav-toggle');
-    const navMenu = document.getElementById('nav-menu');
-    
-    if (navToggle && navMenu) {
-        navToggle.addEventListener('click', function() {
-            navMenu.classList.toggle('active');
-            navToggle.classList.toggle('active');
+    // Bootstrap mobile navbar close on link click
+    document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+            const navbarCollapse = document.querySelector('.navbar-collapse');
+            if (navbarCollapse.classList.contains('show')) {
+                const navbarToggler = document.querySelector('.navbar-toggler');
+                new bootstrap.Collapse(navbarCollapse, 'toggle');
+            }
         });
-    }
+    });
     
     // Contact form submission
     const contactForm = document.getElementById('contact-form');
@@ -77,15 +77,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Mobile menu close on link click
-document.querySelectorAll('.nav-link').forEach(link => {
+// Bootstrap mobile navbar close on link click
+document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
     link.addEventListener('click', () => {
-        const navMenu = document.getElementById('nav-menu');
-        const navToggle = document.getElementById('nav-toggle');
-        
-        if (navMenu && navToggle) {
-            navMenu.classList.remove('active');
-            navToggle.classList.remove('active');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        if (navbarCollapse.classList.contains('show')) {
+            const navbarToggler = document.querySelector('.navbar-toggler');
+            new bootstrap.Collapse(navbarCollapse, 'toggle');
         }
     });
 });
