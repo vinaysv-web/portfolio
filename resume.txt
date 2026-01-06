@@ -1,0 +1,39 @@
+# Vinay SV - Resume
+
+## Contact Information
+- Email: techvinaysv@gmail.com
+- GitHub: https://github.com/vinaysv-tech/
+- LinkedIn: https://www.linkedin.com/in/techvinaysv/
+
+## Professional Summary
+Front-End Developer skilled in HTML, CSS, JavaScript, and React. Building fast, responsive, modern web applications with a focus on user experience and performance optimization.
+
+## Skills
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React
+- Git
+- Responsive Design
+- Cross-browser Compatibility
+
+## Experience
+### Junior Web Developer
+**1Stop.ai** | Internship
+- Developed responsive web applications
+- Implemented UI components with React
+- Collaborated with design and backend teams
+
+## Education
+### Bachelor's Degree in Computer Science
+**University Name** | 20XX-20XX
+
+## Projects
+### Portfolio Website
+- Built a responsive portfolio website showcasing skills and projects
+- Implemented dark mode and smooth animations
+- Optimized for performance and SEO
+
+## Certifications
+- Web Development Certification
+- JavaScript Fundamentals
