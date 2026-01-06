@@ -1,0 +1,64 @@
+/* Education Page Styles */
+.education-hero {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+}
+
+.education-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.education-hero p {
+  font-size: 1.2rem;
+  color: #a0a0c0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-content {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.education-item {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 2rem;
+  border: 1px solid rgba(0, 198, 255, 0.2);
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.education-item h2 {
+  font-size: 1.8rem;
+  color: #00c6ff;
+  margin-bottom: 0.5rem;
+}
+
+.education-item p {
+  color: #d0d0e0;
+  margin: 0.5rem 0;
+}
+
+.education-details {
+  font-style: italic;
+  color: #a0a0c0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .education-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .education-item {
+    padding: 1.5rem;
+  }
+}
