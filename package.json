@@ -2,6 +2,7 @@
   "name": "vinay-portfolio",
   "version": "1.0.0",
   "description": "Vinay Sv - Junior Full-Stack Web Developer Portfolio",
+  "homepage": "https://vinaysv-tech.github.io/Portfollio",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
